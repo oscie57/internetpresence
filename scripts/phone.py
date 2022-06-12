@@ -29,9 +29,9 @@ def main():
         print(final)
 
     if "phone.txt" in os.listdir():
-        file = open('../phone.txt', "w", encoding="utf-8")
+        file = open('./phone.txt', "w", encoding="utf-8")
     else:
-        file = open('../phone.txt', "x", encoding="utf-8")
+        file = open('./phone.txt', "x", encoding="utf-8")
 
     final = ""
 

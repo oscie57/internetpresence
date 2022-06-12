@@ -25,9 +25,9 @@ def main():
         print(final)
 
     if "email.txt" in os.listdir():
-        fileemail = open('../email.txt', "w", encoding="utf-8")
+        fileemail = open('./email.txt', "w", encoding="utf-8")
     else:
-        fileemail = open('../email.txt', "x", encoding="utf-8")
+        fileemail = open('./email.txt', "x", encoding="utf-8")
 
     emailfinal = ""
 
