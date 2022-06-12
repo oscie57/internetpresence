@@ -20,7 +20,7 @@ def main():
 
         itemCen = item.center(bannerLen)
 
-        final = f"\n{banner}\n{itemCen}\n{banner}\n"
+        final = f"\n{banner}\n{itemCen}\n{banner}"
 
         print(final)
 
