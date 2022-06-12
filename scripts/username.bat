@@ -32,7 +32,7 @@ set /p usernames=
 
 mkdir username
 
-py sherlock --verbose --print-all --folderoutput "../username/" --timeout 10 %usernames%
+py sherlock --verbose --print-all --folderoutput "../../username/" --timeout 10 %usernames%
 
 cd ..
 cls
@@ -47,7 +47,7 @@ cls
 
 set /p usernames=Enter a single username to search: 
 
-py sherlock --verbose --print-all --output "../username.txt" --timeout 10 %usernames%
+py sherlock --verbose --print-all --output "../../username.txt" --timeout 10 %usernames%
 
 cd ..
 cls
